@@ -18,3 +18,8 @@ variable "openai_service_name" {
   type        = string
   default     = "openai-demo-service"  # Change this to something unique
 }
+
+variable "azure_subscription_id" {
+  description = "Azure Subscription ID where resources will be created"
+  type        = string
+}
